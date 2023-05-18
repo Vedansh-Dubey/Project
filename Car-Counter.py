@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 import cv2
 import cvzone
-import math
-import time
 import numpy as np
 from scipy.spatial.distance import cdist
+import math
+import time
 
 
 class CentroidTracker:

@@ -1,15 +1,7 @@
-# LAG
-# NO. OF VEHICLES IN SIGNAL CLASS
-# stops not used
-# DISTRIBUTION
-# BUS TOUCHING ON TURNS
-# Distribution using python class
-
 import random
 import math
 import time
 import threading
-# from vehicle_detection import detection
 import pygame
 import sys
 import os
