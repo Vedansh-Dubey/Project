@@ -15,7 +15,7 @@ defaultMaximum = 60
 
 signals = []
 noOfSignals = 4
-simTime = 100       # change this to change time of simulation
+simTime = 200       # change this to change time of simulation
 timeElapsed = 0
 
 currentGreen = 0   # Indicates which signal is green
