@@ -278,12 +278,13 @@ def setTime():
                 elif(vclass=='rickshaw'):
                     noOfRickshaws += 1
     # print(noOfCars)
-    greenTime = math.ceil(((noOfCars) + (noOfRickshaws) + (noOfBuses) + (noOfTrucks)+ (noOfBikes))*1.5/(noOfLanes+1))
+    greenTime = math.ceil(((noOfCars*carTime) + (noOfRickshaws*rickshawTime) + (noOfBuses*busTime) + (noOfTrucks*truckTime)+ (noOfBikes*bikeTime))/(noOfLanes+1))
     print('Green Time: ',greenTime)
     if(greenTime<defaultMinimum):
         greenTime = defaultMinimum
     elif(greenTime>defaultMaximum):
         greenTime = defaultMaximum
+    # greenTime = random.randint(15,50)
     signals[(currentGreen+1)%(noOfSignals)].green = greenTime
    
 def repeat():

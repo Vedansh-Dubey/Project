@@ -1,5 +1,1 @@
-from ultralytics import YOLO
-import cv2
-import cvzone
-import numpy as np
-from scipy.spatial.distance import cdist
+  direction_frequencies = [1, 1.75, 1.25, 1.5]
